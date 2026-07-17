@@ -295,7 +295,7 @@ export default function AddSharesPage() {
       tradingCode: formData.tradingCode.toUpperCase(),
       quantity: parseFloat(formData.quantity),
       boughtPrice: parseFloat(formData.boughtPrice),
-      notifyPrice: formData.targetPrice ? parseFloat(formData.targetPrice) : null,
+      notifyPrice: formData.targetPrice ? parseFloat(formData.targetPrice) : 0,
       purchaseDate: formData.purchaseDate,
       broker: formData.broker,
       notes: formData.notes,
